@@ -1,5 +1,5 @@
-Kubectl get csr #to view the available CSR 
-kubectl certificate approve akshay # approve the pending CSR to get SSL certificate
-kubectl get csr agent-smith -o yaml #view CSR manifest
-kubectl certificate deny agent-smith # reject CSR
-kubectl delete csr agent-smith # delete CSR manifest
+$ Kubectl get csr #to view the available CSR 
+$ kubectl certificate approve akshay # approve the pending CSR to get SSL certificate
+$ kubectl get csr agent-smith -o yaml #view CSR manifest
+$ kubectl certificate deny agent-smith # reject CSR
+$ kubectl delete csr agent-smith # delete CSR manifest
